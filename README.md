@@ -1,86 +1,63 @@
-Devops-suporte 🚀
+DevOps-Suporte 🚀
+Repositório de Ferramentas, Automações e Boas Práticas
 
-Suporte Corporativo - Repositório de Ferramentas e Documentação
-Bem-vindo ao repositório oficial da Equipe de Suporte Corporativo! Este espaço foi criado para centralizar ferramentas, scripts, documentações e recursos que auxiliam no dia a dia do suporte técnico e operacional da empresa.
+Bem-vindo ao hub central da equipe de DevOps e Suporte Corporativo, projetado para otimizar operações técnicas e acelerar a resolução de desafios em ambientes cloud, híbridos e on-premises.
 
-Objetivo
-Automatizar processos repetitivos.
+🎯 Objetivos
+Área	Ação
+Automação	Eliminar tarefas repetitivas com scripts e pipelines CI/CD.
+Padronização	Documentar soluções para incidentes recorrentes (SRE).
+Colaboração	Centralizar conhecimento entre Devs, Ops e Suporte.
+Eficiência	Reduzir MTTR (Mean Time to Repair) com runbooks detalhados.
+🛠️ Stack Utilizada
+Ferramentas Principais
+Infra como Código (IaC): Terraform, Ansible, Pulumi
 
-Padronizar soluções para problemas comuns.
+CI/CD: GitHub Actions, Jenkins, ArgoCD
 
-Compartilhar conhecimentos e boas práticas.
+Monitoramento: Prometheus + Grafana, New Relic, Zabbix
 
-Facilitar a colaboração entre os membros da equipe.
+Contêineres & Orquestração: Docker, Kubernetes (EKS/GKE/AKS)
 
-O que você encontra aqui?
-✔ Scripts úteis (PowerShell, Bash, Python, etc.) para otimizar tarefas.
-✔ Documentação técnica de sistemas e processos internos.
-✔ Manuais e tutoriais para resolução de incidentes.
-✔ Ferramentas internas desenvolvidas pela equipe.
+Scripting: Python, PowerShell, Bash
 
-Como contribuir?
-Faça um fork deste repositório.
+Pastas Organizadas
+markdown
+├── /automation           → Scripts de automação (backups, deploys, logs)  
+├── /iac                  → Templates de infraestrutura (Terraform/Ansible)  
+├── /monitoring           → Alertas, dashboards e SLOs  
+├── /runbooks             → Guias N1/N2/N3 para incidentes  
+└── /tools                → Ferramentas internas (ex: analisador de logs)  
+📌 Como Contribuir?
+Clone o repositório e crie uma branch:
 
-Adicione suas melhorias ou novos recursos.
+bash
+git checkout -b feature/nova-automacao  
+Siga as convenções:
 
-Envie um Pull Request para revisão.
+Documente mudanças em README.md ou .docs/.
 
-📌 Importante: Sempre documente suas alterações e siga as diretrizes do time.
+Use pre-commit para validar código (opcional).
 
-Contato
-Dúvidas ou sugestões? Entre em contato com a equipe através do canal #suporte-corporativo no Slack ou abra uma issue aqui no GitHub.
+Envie um PR com:
 
-Juntos, fazemos o suporte mais eficiente! 🚀
+Descrição clara do problema/solução.
 
-Se precisar de ajustes ou quiser incluir algo específico, é só me avisar! 😊
+Screenshots (se aplicável).
 
-para apoio aos Devops e Suporte em TI
-Ótimo! Aqui está uma descrição mais focada em DevOps e Suporte em TI, destacando automação, monitoramento e colaboração entre equipes:
+⚠️ Critérios para Merge:
 
-DevOps & Suporte em TI - Automação, Monitoramento e Soluções
-Repositório oficial para a equipe de DevOps e Suporte em TI, criado para otimizar processos, compartilhar ferramentas e documentar soluções técnicas utilizadas no ambiente corporativo.
+Testes em ambiente staging (não-prod).
 
-Objetivo
-Automatizar tarefas de infraestrutura, deployment e monitoramento.
+Aprovação de 2 maintainers.
 
-Padronizar soluções para incidentes recorrentes em ambientes cloud/on-premises.
+📞 Suporte e Contato
+Emergências: Acionar via PagerDuty (tag #sev1-infra).
 
-Integrar ferramentas de CI/CD, observability e gestão de configuração.
-
-Documentar procedimentos para acelerar a resolução de problemas.
-
-O que você encontra aqui?
-
-🔧 Scripts e automações (Terraform, Ansible, Kubernetes, Shell, Python, PowerShell).
-
-📊 Dashboards e alertas (Grafana, Prometheus, Zabbix, New Relic).
-
-📚 Runbooks e troubleshooting guides para suporte N1/N2/N3.
-
-⚙ Templates de pipelines (GitHub Actions, GitLab CI, Jenkins).
-
-🛠 Ferramentas internas para deploy, log analysis e gestão de tickets.
-
-Como contribuir?
-Faça um fork do repositório.
-
-Adicione scripts, docs ou melhorias seguindo as boas práticas.
-
-Envie um Pull Request com uma descrição clara das mudanças.
-
-❗ Importante:
-
-Sempre atualize a documentação relacionada.
-
-Teste suas alterações em ambiente não-produtivo antes do merge.
-
-Contato & Suporte
-Dúvidas ou sugestões?
-
-📢 Abra uma issue ou contate-nos via:
+Dúvidas:
 
 Slack: #devops-suporte
 
 E-mail: eduardo.grigorio@gmail.com
 
-Contato: (71) 98800-3296
+Celular: (71) 98800-3296 (apenas para urgências).
