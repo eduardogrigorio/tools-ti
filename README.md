@@ -1,3 +1,5 @@
+Devops-suporte 🚀
+
 Suporte Corporativo - Repositório de Ferramentas e Documentação
 Bem-vindo ao repositório oficial da Equipe de Suporte Corporativo! Este espaço foi criado para centralizar ferramentas, scripts, documentações e recursos que auxiliam no dia a dia do suporte técnico e operacional da empresa.
 
@@ -48,10 +50,15 @@ Integrar ferramentas de CI/CD, observability e gestão de configuração.
 Documentar procedimentos para acelerar a resolução de problemas.
 
 O que você encontra aqui?
+
 🔧 Scripts e automações (Terraform, Ansible, Kubernetes, Shell, Python, PowerShell).
+
 📊 Dashboards e alertas (Grafana, Prometheus, Zabbix, New Relic).
+
 📚 Runbooks e troubleshooting guides para suporte N1/N2/N3.
+
 ⚙ Templates de pipelines (GitHub Actions, GitLab CI, Jenkins).
+
 🛠 Ferramentas internas para deploy, log analysis e gestão de tickets.
 
 Como contribuir?
@@ -69,6 +76,7 @@ Teste suas alterações em ambiente não-produtivo antes do merge.
 
 Contato & Suporte
 Dúvidas ou sugestões?
+
 📢 Abra uma issue ou contate-nos via:
 
 Slack: #devops-suporte
