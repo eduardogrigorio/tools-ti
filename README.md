@@ -81,4 +81,6 @@ Dúvidas ou sugestões?
 
 Slack: #devops-suporte
 
-E-mail: suporte-devops@empresa.com
+E-mail: eduardo.grigorio@gmail.com
+
+Contato: (71) 9 8800-3296
